@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d765e1d4295144fa5a8fae501f0c41, type: 3}
+  m_Name: TileSetting
+  m_EditorClassIdentifier: Assembly-CSharp::TileSetting
+  AnimationTime: 0.3
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.05047005
+      value: 0.2437728
+      inSlope: 1.8659112
+      outSlope: 1.8659112
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.18194556
+      value: 0.6599233
+      inSlope: 2.9919074
+      outSlope: 2.9919074
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2654438
+      value: 0.8182492
+      inSlope: 1.0759815
+      outSlope: 1.0759815
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TileColors:
+  - value: 2
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  - value: 4
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0.94716984, g: 0.7559487, b: 0.7559487, a: 1}
+  - value: 8
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 1, g: 0.627451, b: 0.4784314, a: 1}
+  - value: 16
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0.7215686, g: 0.5254902, b: 0.04313726, a: 1}
+  - value: 32
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0.3333333, g: 0.4196079, b: 0.1843137, a: 1}
+  - value: 64
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0.4980392, g: 1, b: 0.8313726, a: 1}
+  - value: 128
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0, g: 0.8078432, b: 0.8196079, a: 1}
+  - value: 256
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0.254902, g: 0.4117647, b: 0.882353, a: 1}
+  - value: 512
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0.5803922, g: 0, b: 0.8274511, a: 1}
+  - value: 1024
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 0.9803922, g: 0.9215687, b: 0.8431373, a: 1}
+  - value: 256
+    fgColor: {r: 0, g: 0, b: 0, a: 1}
+    bgColor: {r: 1, g: 0, b: 0, a: 1}
