@@ -13,7 +13,6 @@ Hệ thống tính điểm: Điểm số được cộng dồn tương ứng nga
 📁 Cấu trúc thư mục mã nguồn (Assets/)
 Hệ thống tài nguyên của dự án được tổ chức gọn gàng và tường minh theo tiêu chuẩn cấu trúc Unity:
 
-Plaintext
 Assets/
 ├── 📜 Scripts/                # Toàn bộ mã nguồn C# điều khiển logic trò chơi
 │   ├── 📂 UI/                 # Module quản lý giao diện, bộ đếm và trạng thái game
@@ -37,6 +36,7 @@ Assets/
 ├── 🗂️ ScriptableObject/       # Lưu trữ dữ liệu cấu hình tĩnh của hệ thống khối số
 │   └── TileSetting.asset      # File cấu hình phân cấp giá trị và màu sắc hiển thị
 └── 🏞️ Scenes/                 # Quản lý các phân cảnh màn chơi của dự án (`SampleScene`, `Test`)
+
 🔧 Phân tích kỹ thuật các mã nguồn cốt lõi
 1. TileManager.cs (Đầu não xử lý lưới dữ liệu)
 Chịu trách nhiệm quản lý mảng 2 chiều đại diện cho lưới ô vuông trong game. Script xử lý thuật toán dịch chuyển ma trận số khi người chơi vuốt hoặc bấm phím điều hướng:
